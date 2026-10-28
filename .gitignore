@@ -6,5 +6,5 @@
 __pycache__/
 *.pyc
 
-# Generated vector index (rebuild with ingest.py)
+# Generated vector index (built when you upload files in the app)
 vectorstore/
