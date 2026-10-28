@@ -1,0 +1,36 @@
+# LangChain core
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Chat model providers — keep the one(s) you use
+langchain-groq
+langchain-openai
+
+# Local Hugging Face embeddings
+langchain-huggingface
+sentence-transformers
+
+# FAISS vector store and BM25 keyword search
+faiss-cpu
+rank-bm25
+
+# Load PDF, DOCX and TXT files
+pypdf
+docx2txt
+
+# Environment variables (.env)
+python-dotenv
+
+# Optional: API backend
+fastapi
+uvicorn[standard]
+
+# Optional: web UI
+streamlit
+
+# Schemas, HTTP and retry helpers
+pydantic
+httpx
+tenacity
